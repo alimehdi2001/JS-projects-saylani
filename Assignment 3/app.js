@@ -110,6 +110,95 @@
 // let age = year-bdyear;
 // document.write(" your age is " ,age);
 
+// 7. Write a program to implement checkout process of a
+// shopping cart system for an e-commerce website. Store
+// the following in variables
+
+// MATH EXPRESSIONS | JAVASCRIPT
+
+// Page 5 of 9
+
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+
+// Compute the total cost & show the receipt in your browser.
+// let item1 = 650;
+// let item2 = 100;
+// let q1 = 3;
+// let q2 = 7;
+// let shippingcharges = 100;
+// let totalcost = item1*q1 + item2*q2 + shippingcharges ;
+// document.write( " the total is = " + totalcost);
+
+// 8. Store total marks & marks obtained by a student in 2
+// variables. Compute the percentage & show the result in
+// your browser.
+// let totalmarks = 850;
+// let obtainmarks = 690;
+// let per = (obtainmarks/totalmarks)*100;
+// document.write(" The percentage is =" + Math.round(per) )
+
+// 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression.
+// (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// and 1 Saudi Riyal = 28 Pakistani Rupee).
+
+// let pakistanirupees = 10 * 104.80 + 25* 28;
+// document.write(" Total currency is = " + pakistanirupees);
+
+// 10. Write a program to initialize a variable with some
+// number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression.
+
+// let num = 20+5*10/2;
+// document.write(" The result is = " + num);
+
+
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r2, π = 3.142).
+
+// let radius = 20;
+// let pie = 3.142;
+// let circumference;
+// circumference = 2*pie*radius;
+// document.write(" The circumference of circle is = " + circumference + "<br>");
+// let area;
+// area = pie * radius*radius ;
+// document.write(" The area of circle is = "+ area);
+
+// 13. The Lifetime Supply Calculator: Ever wonder how
+// much a “lifetime supply” of your favorite snack is?
+// Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of
+// your life.
+// Output the result to the screen like so: “You will need
+// NNNN to last you until the ripe old age of NN”.
+
+// let snack = "salenty"
+// let current_age = 15;
+// let max_age = 65;
+// let estimated = 3;
+// let total = (max_age - current_age) * estimated;
+// document.write(" You will need "+ total + " to last until the ripe old age " + max_age).
+
+
+
 // ------------------------chapter #4-------------------------
 
 // 1. Declare 3 variables in one statement.
