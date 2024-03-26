@@ -12,10 +12,10 @@ function incre() {
 
 function reset() {
     if( count== 0){
-        count=0;
+        // count=0;
     }
     else{
-        count--;
+        count=0;
     }
     
     text.innerText = count;
